@@ -34,7 +34,7 @@ superstore-analytics-engine/
 ```
 ---
 
-## 📝 Features
+##### 📝 Features
 
 - Interactive Streamlit dashboard:
   - Shift-wise and overall analysis
@@ -50,7 +50,7 @@ superstore-analytics-engine/
 
 ---
 
-## ⚙️ Setup
+##### ⚙️ Setup
 
 ```bash
 git clone <repo-url>
