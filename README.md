@@ -32,17 +32,17 @@ superstore-analytics-engine/
 
 ##### 📝 Features
 
-- Interactive Streamlit dashboard:
-  - Shift-wise and overall analysis
-  - Regional/State/District/City views
-  - Product category and profit dashboards
-  - Customer segmentation (RFM)
-- Automated pipeline:
-  - Data preprocessing
-  - RFM segmentation
-  - Return prediction (XGBoost)
-  - Sales & return visualizations
-- Logs stored in `logs/superstore_analytics.log`.
+	- Interactive Streamlit dashboard:
+	  - Shift-wise and overall analysis
+	  - Regional/State/District/City views
+	  - Product category and profit dashboards
+	  - Customer segmentation (RFM)
+	- Automated pipeline:
+	  - Data preprocessing
+	  - RFM segmentation
+	  - Return prediction (XGBoost)
+	  - Sales & return visualizations
+	- Logs stored in `logs/superstore_analytics.log`.
 
 ##### 📂 Data
 
