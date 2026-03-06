@@ -11,6 +11,16 @@ from utils.logger import get_logger
 import xgboost as xgb
 from sklearn.metrics import classification_report, confusion_matrix
 
+import sys
+import os
+
+# Add project root to sys.path so sibling folders like 'utils' can be imported
+ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+if ROOT_DIR not in sys.path:
+    sys.path.insert(0, ROOT_DIR)
+
+from utils.logger import get_logger
+
 # Fix KMeans memory leak on Windows
 os.environ["OMP_NUM_THREADS"] = "4"
 
