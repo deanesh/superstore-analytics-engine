@@ -1,9 +1,8 @@
 
 #### Superstore Analytics Engine
 
-Analyze Indian Superstore data with Python, visualize insights with Streamlit, and perform customer segmentation and return prediction.
+Analyze Indian Superstore data with Python, visualize insights with Streamlit and perform customer segmentation and return prediction.
 
----
 
 ##### 📁 Folder Structure
 ```
@@ -32,7 +31,6 @@ superstore-analytics-engine/
         logger.py
 
 ```
----
 
 ##### 📝 Features
 
@@ -48,7 +46,6 @@ superstore-analytics-engine/
   - Sales & return visualizations
 - Logs stored in `logs/superstore_analytics.log`.
 
----
 
 ##### ⚙️ Setup
 
@@ -62,6 +59,7 @@ pip install -r requirements.txt
 python main.py
 streamlit run app/app.py
 
-📂 Data
 
-data/indian_superstore_data.xlsx contains Orders, People, and Returns sheets
+##### 📂 Data
+
+    data/indian_superstore_data.xlsx contains Orders, People, and Returns sheets
